@@ -1,0 +1,62 @@
+# Entorno virtual
+venv/
+.env/
+.venv/
+env/
+ENV/
+*.env
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de test y cobertura
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+.junit.xml
+
+# Archivos de log
+*.log
+
+# Archivos de editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
+
+# Archivos de configuración local
+*.db
+*.sqlite3
+
+# Archivos de Docker (si usas)
+*.pid
+
+# Archivos de configuración específicos de FastAPI/Uvicorn (opcional)
+*.pem
+*.crt
+*.key
+
+# mypy y otros linters
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Archivos de exportación de OpenAPI/Swagger (si los generas)
+openapi.json
+docs.json
+
+models/
